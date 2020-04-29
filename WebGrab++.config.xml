@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <filename>guide.xml</filename>
+  <mode>m</mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <!--<decryptkey site="site-name">decrypt_userkey</decryptkey>-->
+  <!--<license wg-username="your webgrab+plus username" registered-email="your registered email address" password="optional-password" />-->
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>366</timespan>
+  <update>f</update>
+ 
+
+    <channel update="i" site="meuguia.tv" site_id="canal/MDO" xmltv_id="AeE FHD">AeE FHD</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/MDO" xmltv_id="AeE HD">AeE HD</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/MDO" xmltv_id="AeE HD *">AeE HD *</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/MDO" xmltv_id="AeE SD">AeE SD</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/MDO" xmltv_id="AeE SD *">AeE SD *</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/MGM" xmltv_id="AMC FHD">AMC FHD</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/MGM" xmltv_id="AMC FHD *">AMC FHD *</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/MGM" xmltv_id="AMC HD">AMC HD</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/MGM" xmltv_id="AMC HD *">AMC HD *</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/MGM" xmltv_id="AMC SD">AMC SD</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/MGM" xmltv_id="AMC SD *">AMC SD *</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/APL" xmltv_id="Animal Planet FHD">Animal Planet FHD</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/APL" xmltv_id="Animal Planet FHD *">Animal Planet FHD *</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/APL" xmltv_id="Animal Planet HD">Animal Planet HD</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/APL" xmltv_id="Animal Planet HD *">Animal Planet HD *</channel>
+	<channel update="i" site="meuguia.tv" site_id="canal/APL" xmltv_id="Animal Planet SD *">Animal Planet SD *</channel>
+  
+</settings>
